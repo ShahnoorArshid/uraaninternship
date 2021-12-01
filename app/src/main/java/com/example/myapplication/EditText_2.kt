@@ -9,7 +9,7 @@ import android.widget.EditText
 class EditText_2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_next)
+        setContentView(R.layout.activity_nextEditText2)
         val button = findViewById<Button>(R.id.button3)
         val name= findViewById<EditText>(R.id.editTextTextPersonName)
         val email=findViewById<EditText>(R.id.editTextTextPersonName2)

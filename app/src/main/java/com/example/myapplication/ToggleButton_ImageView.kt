@@ -21,6 +21,7 @@ class ToggleButton_ImageView : AppCompatActivity() {
         binding= ActivityToggleButtonImageViewBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         binding.capture.setOnClickListener {
             val cameraIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
             startActivityForResult(cameraIntent, cameraRequest)
